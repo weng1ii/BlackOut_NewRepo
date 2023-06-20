@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&display=swap');
+
+html, body {
+  height:100%;
+  width:100%;
+  background-color: #C3B091 !important;
+  min-width: 100%;
+  min-height: 100%;
+}
+html {
+  background-color: #C3B091;
+}
+.haki {
+  background-color: #C3B091;
+}
+.logo {
+  background: none;
+}
+.navbar .navbar-nav .nav-item:hover{
+  background-color: #42A5F5;
+  color: #0d6efd;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+}
+
+.navbar .navbar-nav .nav-item {
+  padding: 1em;
+  transition: all .5s;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    padding-left: .7em;
+  }
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));  
+}
+.carousel-size {
+  max-height: 950px;
+  min-width: 100%;
+}
+
+
+
+
+.zoom-control-prev{
+  min-height: 1045px;
+}
+.tableproperties {
+  background-color: white;
+}
+.rowbg {
+  background-color: white;
+}
+.padding_block{
+  width: 1px;
+  max-height: 170px;
+  min-height: 100px;
+}
+.bphoto{
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bphoto img {
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
